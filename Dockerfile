@@ -1,4 +1,4 @@
-FROM docker-volume-container-rsync
+FROM nabeken/docker-volume-container-rsync
 RUN mkdir -p /var/www/html
 
 ENV VOLUME /var/www/html
